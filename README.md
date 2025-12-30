@@ -184,23 +184,4 @@ nnictl create --config experiments/nni_config.json
 | GT-PolySol-2 | w/o PPTA | 0.52 | 1.08 | 0.65 |
 | GT-PolySol-3 | w/o transfer | 0.48 | 1.02 | 0.58 |
 
-## Citation
 
-If you find this code useful, please cite our paper:
-
-```bibtex
-@article{gtpolysol2025,
-  title={Transfer learning with graph neural networks to predict polymer solubility parameters},
-  author={},
-  journal={},
-  year={2025}
-}
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or issues, please open an issue on GitHub or contact [email].
