@@ -1,7 +1,7 @@
 # Transfer Learning with Graph Neural Networks to Predict Polymer Solubility Parameters
 
 <p align="center"> 
-<img src="FIG1_hz_1222_1.jpg" width="800">
+<img src="FIG1_hz_260101_1.png" width="800">
 </p>
 
 ## Overview
