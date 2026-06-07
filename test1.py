@@ -153,6 +153,7 @@ class MolecularPredictor:
         self.reg_model = nn.Sequential(
             nn.BatchNorm1d(hidden_channels),
             nn.Linear(hidden_channels, 3),
+            nn.Softplus(),
         ).to(self.device)
         
         # Load trained model
