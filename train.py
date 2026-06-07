@@ -254,7 +254,6 @@ def get_traindata():
     for i in smiles_list:
         i_new=i.replace('X','')
         new_smiles_list.append(i_new)
-    #D拟合的好？
 
     labels=[]
 
@@ -606,6 +605,7 @@ reg_model = nn.Sequential(
             #nn.Linear(hidden_channels, hidden_channels),
             nn.Linear(hidden_channels, 3),
             #nn.LogSoftmax(dim=1)
+            nn.Softplus(),
 ).to(device)
 
 domain_model = nn.Sequential(
